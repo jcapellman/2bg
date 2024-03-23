@@ -6,7 +6,7 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
-  GAR_LOCATION: ${{ secrets.$GRPC_GAR_LOCATION }}
+  GAR_LOCATION: ${{ secrets.GRPC_GAR_LOCATION }}
   SERVICE: ${{ secrets.GCP_GRPC_CLOUD_RUN_NAME }}
   REGION: ${{ secrets.GCP_REGION }}
   
