@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaiaEterna.Web.App", "GaiaEterna.Web.App\GaiaEterna.Web.App.csproj", "{C1D9E46E-6E42-4D6E-A32B-D2A66F152E63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GaiaEterna.Web.App", "GaiaEterna.Web.App\GaiaEterna.Web.App.csproj", "{C1D9E46E-6E42-4D6E-A32B-D2A66F152E63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaiaEterna.API.gRPC", "GaiaEterna.API.gRPC\GaiaEterna.API.gRPC.csproj", "{FF5A61AD-189D-4E7C-8C27-A46F9B02373B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C1D9E46E-6E42-4D6E-A32B-D2A66F152E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1D9E46E-6E42-4D6E-A32B-D2A66F152E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1D9E46E-6E42-4D6E-A32B-D2A66F152E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF5A61AD-189D-4E7C-8C27-A46F9B02373B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5A61AD-189D-4E7C-8C27-A46F9B02373B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5A61AD-189D-4E7C-8C27-A46F9B02373B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5A61AD-189D-4E7C-8C27-A46F9B02373B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
