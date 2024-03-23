@@ -7,7 +7,6 @@
 
 html {
   font-size: 14px;
-  background-color: black;
 }
 
 @media (min-width: 768px) {
@@ -26,5 +25,7 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: black;
+    color: white;
 }
