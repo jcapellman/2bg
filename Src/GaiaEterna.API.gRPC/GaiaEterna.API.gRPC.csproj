@@ -5,9 +5,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <InvariantGlobalization>true</InvariantGlobalization>
-    <PublishAot>true</PublishAot>
     <UserSecretsId>8aef5ad2-3eb9-4f90-a02e-2da125066471</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	<ContainerRepository>gaiaeterna-api-grpc</ContainerRepository>
   </PropertyGroup>
 
   <ItemGroup>
