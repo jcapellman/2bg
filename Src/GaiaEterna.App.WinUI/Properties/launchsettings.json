@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "GaiaEterna.App.WinUI (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "GaiaEterna.App.WinUI (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
